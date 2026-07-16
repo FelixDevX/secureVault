@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+jspm_packages/
+web_modules/
+
+# Environment variables (Crucial - never commit credentials!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example.local
+
+# Server local upload fallbacks & logs
+server/uploads/
+*.log
+
+# Production build directories
+dist/
+build/
+client/dist/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
